@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/zzu/scene_seal/align/build",
+  "command": "/usr/bin/g++  -Dsealnet_align_EXPORTS -isystem /usr/local/include -isystem /home/zzu/anaconda3/include/python3.9 -isystem /usr/include/opencv  -g -fPIC   -std=gnu++14 -o CMakeFiles/sealnet_align.dir/align.cpp.o -c /home/zzu/scene_seal/align/align.cpp",
+  "file": "/home/zzu/scene_seal/align/align.cpp"
+},
+
+{
+  "directory": "/home/zzu/scene_seal/align/build",
+  "command": "/usr/bin/g++  -Dsealnet_align_EXPORTS -isystem /usr/local/include -isystem /home/zzu/anaconda3/include/python3.9 -isystem /usr/include/opencv  -g -fPIC   -std=gnu++14 -o CMakeFiles/sealnet_align.dir/sealnet_align.cpp.o -c /home/zzu/scene_seal/align/sealnet_align.cpp",
+  "file": "/home/zzu/scene_seal/align/sealnet_align.cpp"
+}
+]
