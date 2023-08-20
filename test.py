@@ -24,30 +24,30 @@ ss = {
     "h": 97
 }
 
-ss2 = {
-    "la":True,
-    "mu":False,
-    "x": 11.64244186046517,
-    "y": 328.3168604651162,
-    "rect": [
-        95.0,
-        -219.0,
-        584.0755813953488,
-        584.0755813953488
-    ],
-    "rotation": 0,
-    "text": "郑州大学档案项目组测试专用章",
-    "sequence": "从左到右",
-    "type": 5,
-    "startAngle": 5152,
-    "spanAngle": 4112,
-    "a": 292.0377906976744,
-    "b": 292.0377906976744,
-    "h": 154
-}
+# ss2 = {
+#     "la":True,
+#     "mu":False,
+#     "x": 11.64244186046517,
+#     "y": 328.3168604651162,
+#     "rect": [
+#         95.0,
+#         -219.0,
+#         584.0755813953488,
+#         584.0755813953488
+#     ],
+#     "rotation": 0,
+#     "text": "郑州大学档案项目组测试专用章",
+#     "sequence": "从左到右",
+#     "type": 5,
+#     "startAngle": 5152,
+#     "spanAngle": 4112,
+#     "a": 292.0377906976744,
+#     "b": 292.0377906976744,
+#     "h": 154
+# }
 
 
 image = cv2.imread("image.png")
-result = build.sealnet_align.align(image,ss2)
+result = build.sealnet_align.align(image,ss)
 cv2.imwrite("result.png",result)
 
